@@ -39,11 +39,7 @@ export default {
       return this.$site.pages
         .filter(post => post.path.match(/posts/g))
         .sort(
-          (a, b) =>
-            Date.parse(
-              new Date(b.frontmatter.date).toLocaleDateString("en-US")
-            ) -
-            Date.parse(new Date(a.frontmatter.date).toLocaleDateString("en-US"))
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
     }
   }
