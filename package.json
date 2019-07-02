@@ -1,0 +1,25 @@
+{
+  "name": "demo-custom",
+  "version": "1.0.0",
+  "description": "A simple custom theme for VuePress.",
+  "author": "Victoria Bergquist",
+  "license": "MIT",
+  "scripts": {
+    "build:files": "node content.js",
+    "serve:app": "vuepress dev",
+    "dev": "run-s build:files serve:app",
+    "build": "build:files vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicbergquist/codesandbox-vuepress"
+  },
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.48"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@sanity/client": "0.141.5",
+    "npm-run-all": "4.1.5"
+  }
+}

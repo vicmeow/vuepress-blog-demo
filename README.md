@@ -1,2 +1,7 @@
-# vuepress-blog-demo
-Created with CodeSandbox
+---
+emoji: 👋
+---
+
+# Welcome!
+
+This is a custom VuePress theme!
