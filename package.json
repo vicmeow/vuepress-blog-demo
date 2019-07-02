@@ -8,7 +8,7 @@
     "build:files": "node content.js",
     "serve:app": "vuepress dev",
     "dev": "run-s build:files serve:app",
-    "build": "build:files vuepress build"
+    "build": "run-s build:files vuepress build"
   },
   "repository": {
     "type": "git",
