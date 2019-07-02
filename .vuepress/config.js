@@ -16,6 +16,8 @@ module.exports = {
     ]
   },
   markdown: {
-    anchor: false
+    anchor: {
+      permalink: false
+    }
   }
 };
