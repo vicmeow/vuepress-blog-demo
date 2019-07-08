@@ -1,8 +1,8 @@
 const fs = require("fs");
 const sanityClient = require("@sanity/client");
 const sanity = sanityClient({
-  projectId: process.env.projectId,
-  dataset: process.env.dataset,
+  projectId: 'z3r569xy',
+  dataset: 'production',
   useCdn: true
 });
 
